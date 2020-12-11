@@ -1,0 +1,7 @@
+max_sur_le_chemin ( min_sur i j  ( I(i,j) (i,j) in N * N))
+
+soit f(i,k) la vitesse min du chemin qui maximise la vitesse min a l'iteration k
+
+f(i, k) = max_sur_pred (min(f(j,k-1), v(i,j))
+
+function BellmanFord3(G, s) 
